@@ -8,6 +8,7 @@ function App() {
         width='288'
         height='288'
         src='images/image-qr-code.png'
+        alt='QR code'
       />
       <h1 className='card__heading'>
         Improve your front-end skills by building projects

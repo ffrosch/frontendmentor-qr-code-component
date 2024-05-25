@@ -16,7 +16,6 @@ body {
 }
 
 #root {
-  margin-top: auto;
   align-self: center;
   display: grid;
   place-items: center;
@@ -53,7 +52,11 @@ body {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  align-self: end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 320px;
 }
 
 .attribution a {

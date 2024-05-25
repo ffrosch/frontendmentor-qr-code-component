@@ -33,9 +33,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="root">React is loading...</div>
+    <main
+      id="root"
+      role="main"
+    >
+      React is loading...
+    </main>
 
-    <div class="attribution">
+    <footer
+      class="attribution"
+      role="contentinfo"
+    >
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -49,7 +57,7 @@
         rel="noopener noreferrer"
         >Florian Frosch</a
       >.
-    </div>
+    </footer>
 
     <script
       crossorigin
@@ -70,10 +78,7 @@
       src="./App.js"
     ></script>
 
-    <script
-      type="text/babel"
-      data-presets="react,stage-3"
-    >
+    <script type="text/babel">
       const root = ReactDOM.createRoot(document.getElementById('root'));
       root.render(<App />);
     </script>
