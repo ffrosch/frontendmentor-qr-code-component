@@ -4,25 +4,27 @@
   --color-grey-light: #d5e1ef;
   --color-grey: #7d889e;
   --color-navy-dark: #1f314f;
+  --color-blue: #2c7dfa;
 }
 
 body {
   width: 100vw;
   height: 100dvh;
   display: grid;
-  align-items: baseline;
   background-color: var(--color-grey-light);
   font-family: 'Outfit';
 }
 
-#root {
+main {
   align-self: center;
+  margin-top: auto;
   display: grid;
   place-items: center;
 }
 
 .card {
   padding: 16px;
+  margin: 16px;
   border-radius: 20px;
   width: 320px;
   background-color: white;
@@ -52,13 +54,11 @@ body {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: sticky;
+  align-self: end;
   min-width: 320px;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-blue);
 }
