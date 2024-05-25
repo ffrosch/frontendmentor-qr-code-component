@@ -1,7 +1,21 @@
 function App() {
+  // React.useEffect(() => {}, []);
+
   return (
-    <div className='text-3xl font-bold'>
-      <h1>My React App!</h1>
+    <div className='card shadow-xl'>
+      <img
+        className='card__qr-code'
+        width='288'
+        height='288'
+        src='images/image-qr-code.png'
+      />
+      <h1 className='card__heading'>
+        Improve your front-end skills by building projects
+      </h1>
+      <p className='card__description'>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
     </div>
   );
 }
